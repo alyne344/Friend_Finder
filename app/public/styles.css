@@ -1,0 +1,71 @@
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+body {
+    background: white;
+}
+.jumbotron {
+background: #0f0c29; 
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+color: white;
+}
+.wrapper{
+    margin:3em 0;
+  }
+  a,a:visited,a:hover,a:active{
+    -webkit-backface-visibility:hidden;
+            backface-visibility:hidden;
+      position:relative;
+    transition:0.5s color ease;
+      text-decoration:none;
+      color:#0f0c29;
+      font-size:20px;
+  }
+  a:hover{
+      color: #eb3349;
+  }
+  a.before:before,a.after:after{
+    content: "";
+    transition:0.5s all ease;
+    -webkit-backface-visibility:hidden;
+            backface-visibility:hidden;
+    position:absolute;
+  }
+  a.before:before{
+    top:-0.25em;
+  }
+  a.after:after{
+    bottom:-0.25em;
+  }
+  a.before:before,a.after:after{
+    height:5px;
+    height:0.35rem;
+    width:0;
+    background:#d73444;
+  }
+  a.first:after{
+    left:0;
+  }
+  a.second:after{
+    right:0;
+  }
+
+  .footer {
+      color:#0f0c29;
+  }
+.btn {
+  background: #eb3349; 
+  background: -webkit-linear-gradient(to right, #eb3349, #f45c43); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eb3349, #f45c43);
+}
+
+.btn:hover {
+  background: #eb3349; 
+}
+
+span {
+    font-size: 15px;
+}

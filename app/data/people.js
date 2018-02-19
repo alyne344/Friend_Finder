@@ -1,6 +1,6 @@
 var people = [
     {
-      name: 'Sarah Palin',
+      name: 'Angelina Jolie',
       photo: 'https://goo.gl/HjV3wx',
       scores: [ '2', '1', '3', '3', '4', '4', '3', '4', '2', '2', '4', '5' ] 
     },
@@ -15,47 +15,47 @@ var people = [
       scores: [ '2', '1', '3', '3', '5', '2', '2', '2', '2', '4', '2', '4' ] 
     },
     {
-      name: 'Miley Cyrus',
+      name: 'Taylor Swift',
       photo: 'https://goo.gl/dgttwF',
       scores: [ '2', '3', '4', '3', '5', '3', '3', '1', '2', '4', '2', '2' ] 
     },
     {
-      name: 'Mary Kate Olsen',
+      name: 'Jennifer Aniston',
       photo: 'https://goo.gl/JGbHGF',
       scores: [ '2', '1', '5', '3', '5', '1', '1', '1', '2', '4', '1', '1' ] 
     },
     {
-      name: 'Danica Patrick',
+      name: 'Julia Roberts',
       photo: 'https://goo.gl/cxdyaJ',
       scores: [ '2', '1', '3', '3', '3', '2', '4', '4', '4', '3', '4', '4' ] 
     },
     {
-      name: 'Betty White',
+      name: 'Adele',
       photo: 'https://goo.gl/1VjTuy',
       scores: [ '2', '1', '2', '3', '2', '2', '4', '4', '3', '1', '4', '3' ] 
     },
     {
-      name: 'Donald Trump',
+      name: 'Chris Pratt',
       photo: 'https://goo.gl/qYfK9F',
       scores: [ '1', '2', '4', '1', '4', '2', '3', '1', '1', '4', '4', '5' ] 
     },
     {
-      name: 'Sam Smith',
+      name: 'Justin Bieber',
       photo: 'https://goo.gl/yZkazo',
       scores: [ '1', '1', '3', '3', '4', '4', '3', '2', '3', '3', '2', '2' ] 
     },
     {
-      name: 'Zach Galifianakis',
+      name: 'Adam Sandler',
       photo: 'https://goo.gl/he6Cjn',
       scores: [ '1', '2', '2', '3', '4', '1', '2', '2', '4', '3', '2', '2' ] 
     },
     {
-      name: 'Ed Sheeran',
+      name: 'Drake',
       photo: 'https://goo.gl/kPPXK2',
       scores: [ '1', '2', '2', '4', '2', '3', '4', '4', '5', '3', '2', '2' ] 
     },
     {
-      name: 'James Franco',
+      name: 'Ashton Kutcher',
       photo: 'https://goo.gl/2VXr6n',
       scores: [ '1', '3', '5', '2', '5', '2', '1', '1', '1', '4', '1', '1' ] 
     },
@@ -65,7 +65,7 @@ var people = [
       scores: [ '1', '2', '3', '3', '4', '2', '5', '3', '2', '2', '2', '2' ] 
     },
     {
-      name: 'Bill Murray',
+      name: 'Ben Affleck',
       photo: 'https://goo.gl/C4x2Wt',
       scores: [ '1', '2', '2', '3', '5', '2', '1', '1', '3', '3', '2', '1' ] 
     }

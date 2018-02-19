@@ -4,27 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matchmaker App</title>
-
   <!-- Bootstrap and JQuery-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<style>
-
-</style>
-
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel = "stylesheet" type = "text/css" href = "styles.css" />
 </head>
 
 <body>
   <div class="container">
     <div class="jumbotron text-center">
-      <img class="img-fluid rounded mx-auto" src="matchmaker.gif" alt="">
-      <hr>
-      <h3>Who are you destined to love?</h3>
+      <h3>Which celebrity are you destined to date?</h3>
       <br>
 
       <div>
         <a href="/survey">
           <button type="button" class="btn btn-lg btn-danger">
-            <h4><i class="fas fa-list-alt"></i> Go to Survey</h4>
+            <h4><i class="fas fa-heart"></i> Go to Survey</h4>
           </button>
         </a>
       </div>
@@ -33,11 +28,11 @@
 
     <footer class="footer">
       <p>
-        <a href="/api/people">
-          API Celebrity List
+        <a class="wrapper" href="/api/people">
+          API Celebrity List  
         </a>
-         | 
-        <a href="https://alyne344.github.io/Friend_Finder/">
+         |
+        <a class="wrapper" href="https://github.com/alyne344/Friend_Finder">
           Github Repo
         </a>
       </p>
