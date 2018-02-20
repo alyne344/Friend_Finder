@@ -60,6 +60,6 @@ $("#submit").on("click", function(event) {
     });
 
   } else {
-    alert("Please fill out all fields including a valid photo URL before submitting!");
+    alert("Please fill out all fields before submitting!");
   }
 });  
